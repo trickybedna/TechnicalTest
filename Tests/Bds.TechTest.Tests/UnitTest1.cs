@@ -9,6 +9,11 @@ namespace Bds.TechTest.Tests
         {
         }
 
+        [TearDown]
+        public void Close()
+        {
+        }
+
         [Test]
         public void Test1()
         {
